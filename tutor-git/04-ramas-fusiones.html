@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/stilos.css">
+    <title>Git</title>
+</head>
+<body>
+    <h1>Ramas y fusiones</h1>
+
+    <h2>Rama master</h2>
+    <p>Se genera por defecto cuando hacemos git init.<br>
+         donde se genera el primer commit <strong>master</strong></p>
+    
+    <h3>git branch</h3>
+    <p>Nos muestra las ramas.</p>
+
+    <p>Si ponemos branch text, donde text el el nombre que definimos a esta rama.<br>
+    creamos y nos vamos a la rama text.<br>
+    ahora los cambias que hagamos se haran el la rama text y no en master.<br>
+    por tanto ahora tenemos dos ramas , master y texto y estamos en activo text.</p>
+
+    <p>Para probarlos hacemos algun cambio y<br>
+    git add -A // guardamos los cambios
+    git commit -m "El comentario que quieras : realizados cambios en la rama text"
+    </p>
+
+    <h2>Fusiones</h2>
+    <p>Si las pruebas de la rama text las queremos guardar en el Master usaremos las <strong>fusiones</strong></p>
+
+    <p>Nos vamos a la rama que va a absorber los cambios de text<br>
+    y lo hacemos con <strong>git checkout</strong>para movernos y <strong>git merge</strong> para fusinarla</p>
+
+    <p><strong>
+    git checkout master<br>
+    git merge text
+    </strong></p>
+
+    <p>Tras fusionar con merge la rama text si cambiamos con checkout a text 
+        veremos qeu tienen los dos ya el mismo codigo. hemos fusionado los cambios. 
+        y actualizado la rama master.</p>
+    
+    <p>cuando ya tengamos cambios en una rama text y actualizamos la raiz master.<br>
+    podemos volver a la rama texto hacer merge de raiz para tener la ultima version de raiz master 
+    y cuando estemos contentos con los cambios volvemos a master y hacemos fusion merge de la raiz text.
+    </p>
+
+    <p>Hay dos tipos de fsion</p>
+    <p>
+        fast-forward - Simple y automatico.<br>
+        manual Merge - Largo y Manual.
+    </p>
+
+    <p>
+        Para probar los tipos de fusion vamos a crear mas ramas no solo la de text. <br>
+        git branch Colores<br>
+        creamos un archivo css para los colores y los cambios que deses XD.</p>
+        <p>git add -A <br>
+        git commit -m "Cambio de colores en rama colores"
+    </p>
+    <p>
+        ahora si cambiamos de ramas master y colores veremoe que los cambios estan solo en la rama de colore.<br> 
+        En master no hay cambios hata que decidadmos hacer fusion.
+    </p>
+    <p>
+        git checkout master<br>
+        git checkout colores
+    </p>
+    <p>
+        Si no te gustaron lso cambos o no te gusta la version que hemos echo en la rama colores pues borramos la rama<br>
+        git checkout master<br>
+        git branch -D colores
+    </p>
+    <p>
+        <strong>git branch</strong>
+    </p>
+    <p>
+        Y queda borrada la rama sin que sufra ningun cambio master.            
+    </p>
+    
+
+
+
+   
+    
+</body>
+</html>

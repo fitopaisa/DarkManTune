@@ -1,0 +1,47 @@
+commit 8d72255cc7cddf6b1ade5b3d9d552af2f431f809
+Author: DarkManTune <fitopaisa@hotmail.com>
+Date:   Sun Apr 23 20:51:21 2017 +0200
+
+    3 paginas
+
+commit c052e2564418a80b899b73cdea0423eb8eeee7ad
+Author: DarkManTune <fitopaisa@hotmail.com>
+Date:   Sun Apr 23 20:44:58 2017 +0200
+
+    ultimo
+
+commit 66cdddf23e4377d3532d65cae9c3e7f0543a5176
+Author: DarkManTune <fitopaisa@hotmail.com>
+Date:   Sun Apr 23 20:31:16 2017 +0200
+
+    checkout master
+
+commit 65e6e25f7f45bafd5384dbe1daded4bbdaa02466
+Author: DarkManTune <fitopaisa@hotmail.com>
+Date:   Sun Apr 23 20:18:41 2017 +0200
+
+    checkout
+
+commit c2de227038e607e4bb9ef89e64ebfa22293b2f7a
+Author: DarkManTune <fitopaisa@hotmail.com>
+Date:   Sun Apr 23 17:45:07 2017 +0200
+
+    Agrego Strong y alguun parrafo mas en el documento 02...
+
+commit a95b57bcc7576148afac30899ae8f9213dc332d0
+Author: DarkManTune <fitopaisa@hotmail.com>
+Date:   Sun Apr 23 02:44:50 2017 +0200
+
+    Agregadas anotaciones al 3er fichero
+
+commit e4dc5e490a5491a76d1bb2859e51dc4f069effc8
+Author: DarkManTune <fitopaisa@hotmail.com>
+Date:   Sun Apr 23 02:36:40 2017 +0200
+
+    Iniciado 3er archivo
+
+commit 6d16bed17b02e51dc15fde57459beab7c8f3907a
+Author: DarkManTune <fitopaisa@hotmail.com>
+Date:   Sun Apr 23 02:29:55 2017 +0200
+
+    iniciamos
