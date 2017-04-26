@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Git</title>
+</head>
+<body>
+    <h1>git checkout</h1>
+    
+    <p>Viajando en el tiempo<br></p>
+
+    <p><strong>git checkout</strong></p>
+    <p> podremos camviar a versiones atras . viajando en el teimpo<br>
+    Necesitaremos copiar el numero del commit para viajar.</p>
+    <p> Ponermos: <br>
+    git checkout 6d16bed17b02e51dc15fde57459beab7c8f3907a</p>
+
+    <p>Nos mandara de retorno a la version del commit que pongamos.</p>
+    <p>Para volver a la ultima version guaradada ponemos.<br>
+    <strong>git checkout master .</strong></p>
+
+    <h3>Git reset</h3>
+    <p><strong></st>git reset --soft</strong> <br>
+    borra los commit pero no borra el código. de tal manerea que 
+    peude dejar esa copia en el punto qeu queiras borrando las pequeñas 
+    actualizaciones que no te interesa guardar.<br>
+    no boorra ni el codigo ni los archivos. Si borra los commit.<br>
+    <strong>git reset --soft 1f1e4ccb15800375b289b45506b55f36c53175c1</strong></p>
+
+    <p><strong></st>git reset --hard</strong> <br>
+    Borra los comit y el codigo<br>
+    dejandote en la vesion de commit que elijas borrando tambien el codigo y los ficheros.<br>
+    <strong>git reset --hard 1f1e4ccb15800375b289b45506b55f36c53175c1</strong>
+    </p>
+    
+</body>
+</html>

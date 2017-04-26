@@ -1,0 +1,11 @@
+commit 5ac64f34a406f419b91ee28a73cf2f180eef0947
+Author: DarkManTune <fitopaisa@hotmail.com>
+Date:   Sun Apr 23 21:27:33 2017 +0200
+
+    03 - git reset --hard
+
+commit 6d16bed17b02e51dc15fde57459beab7c8f3907a
+Author: DarkManTune <fitopaisa@hotmail.com>
+Date:   Sun Apr 23 02:29:55 2017 +0200
+
+    iniciamos

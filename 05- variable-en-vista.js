@@ -50,11 +50,3 @@ http.createServer(function(req,res){
 // Documentacion de Nodejs FileSsistem
 // https://nodejs.org/es/docs/
 // https://nodejs.org/dist/latest-v6.x/docs/api/fs.html
-
-// vamos por 
-// node - jade
-// https://www.youtube.com/watch?v=3pFY3LLTONI&index=7&list=PLf3Ulvd7b1B1V5MjYiv-j-_AuhOsrV4Hx#t=506.829568
-// en codigo facilito
-// http://codigofacilito.com/videos/curso_nodejs_jade
-// 
-
